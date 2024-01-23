@@ -1,7 +1,7 @@
-const Saludo = () => {
+const Saludo = (props) => {
     return (
         <div>
-            <h1 className="display-3">Hello World!</h1>
+            <h1 className="display-3">Hello {props.data}!</h1>
         </div>
     );
 };

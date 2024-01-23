@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <Saludo></Saludo>
+      <Saludo data="my friend"></Saludo>
     </>
   )
 }
